@@ -1,0 +1,6 @@
+import { PaginationConfiguration } from "@smithy/types";
+import { TextractClient } from "../TextractClient";
+export interface TextractPaginationConfiguration
+  extends PaginationConfiguration {
+  client: TextractClient;
+}
